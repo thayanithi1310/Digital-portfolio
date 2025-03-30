@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", () => { const content = document.querySelector(".content"); content.style.opacity = "0"; content.style.transform = "translateY(20px)"; setTimeout(() => { content.style.transition = "opacity 0.6s ease-out, transform 0.6s ease-out"; content.style.opacity = "1"; content.style.transform = "translateY(0)"; }, 100); });
